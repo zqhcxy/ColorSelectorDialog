@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="toolbarBackground" format="reference|color" />
+    <attr name="appBackground" format="reference|color" />
+    <attr name="nomalListItem" format="reference|color" />
+    <attr name="audioselectListItem" format="color" />
+    <attr name="TextColor" format="color" />
+    <attr name="hcSelectableItemBackground" format="reference" />
+</resources>

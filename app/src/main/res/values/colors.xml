@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="c1">#0b94f9</color><!--主色蓝-->
+    <color name="c2">#fc3768</color><!--强调色-->
+    <color name="c3">#404040</color><!--文字主-->
+    <color name="c3_dark">#bbd7ef</color>
+    <color name="c4">#989898</color><!--文字辅-->
+    <color name="c5">#ffffff</color><!--白-->
+    <color name="c6">#ececec</color><!--背景灰-->
+    <color name="c7">#001eff</color><!--背景灰-->
+    <color name="c8">#fafafa</color><!--列表-->
+    <color name="c8_dark">#17232d</color>
+    <color name="c9">#d2d2d2</color><!--分割线-->
+    <color name="co_t2">#66898989</color><!--点击-->
+    <color name="co_t4">#66000000</color><!--暗纱-->
+    <color name="cr_hue_7">#ff0000</color>
+    <color name="col_primary">#0b94f9</color>
+
+    <!--hue可选默认颜色-->
+    <color name="hue_color1">#4c67cc</color>
+    <color name="hue_color2">#9a4ccc</color>
+    <color name="hue_color3">#f57c8d</color>
+    <color name="hue_color4">#bf7550</color>
+    <color name="hue_color5">#e8b045</color>
+    <color name="hue_color6">#47c8ae</color>
+    <color name="hue_color7">#88939f</color>
+</resources>

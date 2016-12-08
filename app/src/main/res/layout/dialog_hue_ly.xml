@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/dialog_hue_title"
+        android:textSize="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:background="@color/col_primary"
+        android:gravity="center"
+        android:text="@string/hsv_dialog_title"
+        android:textColor="@color/c5"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/dialog_hue_color_rcy"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        />
+
+    <LinearLayout
+        android:id="@+id/dialog_hue_advance_ly"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:text="@string/hue_advanced_title"
+            android:textColor="@color/c3"
+            android:textSize="@dimen/t3"/>
+        <!--android:drawableRight="@drawable/hue_advance_selecter"-->
+
+        <ImageView
+            android:id="@+id/dialog_hue_open_iv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_contrac"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/dialog_hue_color_detel_ly"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="16dp"
+            android:text="@string/hue_h_title"
+            android:textColor="@color/c4"
+            android:textSize="@dimen/t3"/>
+
+        <SeekBar
+            android:id="@+id/hue_seekbar_h"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="18dp"
+            android:paddingRight="18dp"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp"
+            android:progress="120"
+            android:max="360"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="16dp"
+            android:text="@string/hue_s_title"
+            android:textColor="@color/c4"
+            android:textSize="@dimen/t3"
+            android:max="100"/>
+
+        <SeekBar
+            android:id="@+id/hue_seekbar_s"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="18dp"
+            android:paddingRight="18dp"
+            android:maxHeight="4dp"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp"
+            android:progress="50"
+            android:max="100"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="16dp"
+            android:text="@string/hue_v_title"
+            android:textColor="@color/c4"
+            android:textSize="@dimen/t3"/>
+
+        <SeekBar
+            android:id="@+id/hue_seekbar_v"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="18dp"
+            android:paddingRight="18dp"
+            android:maxHeight="4dp"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp"
+            android:progress="50"
+            />
+
+
+    </LinearLayout>
+
+</LinearLayout>

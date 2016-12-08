@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hsv_dialog_title">颜色选择</string>
+    <string name="main_confirm">确定</string>
+    <string name="main_cancel">取消</string>
+    <string name="pref_message_counter_reset">重置</string>
+
+    <string name="hue_h_title">色相：</string>
+    <string name="hue_s_title">饱和度：</string>
+    <string name="hue_v_title">明度：</string>
+
+    <string name="hue_advanced_title">高级设置</string>
+</resources>
