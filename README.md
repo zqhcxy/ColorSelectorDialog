@@ -19,3 +19,4 @@
 ```
 ### 效果：
 ![效果图1](images/image1.gif)
+![效果图2](images/image2.gif)
